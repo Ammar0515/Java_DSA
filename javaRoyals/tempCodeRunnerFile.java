@@ -1,0 +1,1 @@
+//4. check alphabet is vowel or consonant ?

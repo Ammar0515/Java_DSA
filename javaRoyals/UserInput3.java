@@ -1,0 +1,21 @@
+import java.util.Scanner;
+public class UserInput3{
+
+	public static void main(String args[])
+	{
+		//class name objname = new class name;
+		Scanner scobj = new Scanner(System.in);
+		System.out.println("Enter Your Age: ");
+		float age =scobj.nextFloat();
+		System.out.println("Your age is "+ age);
+		
+		System.out.println("Enter a String: ");
+		char str = scobj.next().charAt(0);
+		System.out.println("Your string is: "+str);
+		
+		scobj.nextLine();
+		System.out.println("Enter a String: ");
+		String str1 = scobj.nextLine();
+		System.out.println("Your string is "+  str1);
+	}
+}

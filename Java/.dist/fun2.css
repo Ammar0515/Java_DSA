@@ -1,0 +1,55 @@
+css
+Copy code
+body {
+  background-color: #141414;
+}
+
+.login-container {
+  background-color: #fff;
+  width: 400px;
+  margin: 50px auto;
+  padding: 30px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 30px;
+  color: #141414;
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+}
+
+button[type=submit] {
+  background-color: #e50914;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+button[type=submit]:hover {
+  background-color: #ff0a16;
+}
+
+.sign-up-link {
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.sign-up-link a {
+  color: #e50914;
+  text-decoration: none;
+}
+
+.sign-up-link a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,14 @@
+a = 10;
+a is identifiers
+10 is literals
+
+>>>Condition for type conversion
+1. the two types should be compatible 
+ex. adding an int and it will automaticlly convert it into float.
+ int value is 65 & and output will be 65.0. 
+2. the dastination value should be greater than the source value.
+
+>>> Type promotion rules
+1. All the byte, short & character values are promoted into int 
+and then any oprands(+,-,*,/) is long whole opration will be promoted 
+to long.
